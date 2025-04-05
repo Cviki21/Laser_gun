@@ -49,6 +49,10 @@ typedef struct _objects_t {
     lv_obj_t *obj18;
     lv_obj_t *obj19;
     lv_obj_t *on_time;
+    lv_obj_t *bat_status;
+    lv_obj_t *obj20;
+    lv_obj_t *obj21;
+    lv_obj_t *bat_percent;
 } objects_t;
 
 extern objects_t objects;
