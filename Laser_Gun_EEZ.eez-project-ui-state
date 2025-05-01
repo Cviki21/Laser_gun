@@ -1,8 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[ui\\Laser_Gun\\lasergun\\lasergun.eez-project]:/userPages/0",
-    "selectedFontObject": "[ui\\Laser_Gun\\lasergun\\lasergun.eez-project]:/fonts/4",
-    "selectedBitmapObject": "[ui\\Laser_Gun\\lasergun\\lasergun.eez-project]:/bitmaps/-1",
+    "selectedUserPageObject": "[Laser_Gun_EEZ.eez-project]:/userPages/1",
     "subnavigationSelectedItems": {}
   },
   "layoutModel": {
@@ -188,10 +186,21 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 65,
-              "selected": -1,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
-              "children": [],
+              "children": [
+                {
+                  "type": "tab",
+                  "id": "#de176103-a4ec-437a-8c0c-879775776394",
+                  "name": "main",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[Laser_Gun_EEZ.eez-project]:/userPages/1",
+                    "permanent": false
+                  },
+                  "icon": "svg:page"
+                }
+              ],
               "active": true
             },
             {
@@ -1044,6 +1053,26 @@
         "translate": {
           "x": -86,
           "y": -160
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[Laser_Gun_EEZ.eez-project]:/userPages/1[flow-state]": {
+      "selection": {
+        "0": {
+          "3": {}
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -160,
+          "y": -86
         },
         "scale": 1
       },
